@@ -81,3 +81,13 @@ All generated wordlists are saved to the `oforge_output/` directory:
 
 ```bash
 ./OForge
+
+📦 Part of OwlSec Toolkit
+This tool is part of the OwlSec suite — a collection of 300+ security and privacy tools.
+🔗 owlsec.org
+
+©️ License
+Proprietary — © Khaled S. Haddad
+Tools are distributed as pre-built executables. Source code is proprietary.
+
+AUTHORISED SECURITY TESTING USE ONLY
