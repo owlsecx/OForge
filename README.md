@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-Generate targeted wordlists from mask patterns.
+OForge generates targeted wordlists from mask patterns and checks them against password-policy style constraints. Custom charsets, rule application, batch masks, deduplication, and stats preview help password auditors build coverage sets for authorised cracking labs and policy validation—not indiscriminate attacks.
 
 ---
 
 ## ✨ Features
 
-- Mask-based wordlist generator with password-policy coverage reports for authorised testing
+- Mask-based wordlist generation with custom ?1–?4 charsets
+- Batch masks from a file and optional rule application
+- Mask analyse mode to preview stats before generation
+- Deduplication modes and output limits for large sets
+- Policy-oriented checking alongside generation
+- Buffered TXT export under a dedicated output directory
 
 ---
 
@@ -38,7 +43,10 @@ Generate targeted wordlists from mask patterns.
 ## 🚀 Usage
 
 ```bash
-./OForge
+./OForge --mask '?u?l?l?l?d?d?d?d' --limit 10000
+./OForge --analyse '?l?l?l?d?d'
+./OForge --batch masks.txt --dedup --output oforge_output/words.txt
+./OForge --help
 ```
 
 ---
